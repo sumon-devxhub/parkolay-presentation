@@ -746,8 +746,8 @@
         </div>
       </div>
       <img
-        class="w-full lg:max-w-[50%]"
-        src="assets/images/ParkMatrix.jpg"
+        class="w-auto lg:max-w-[50%] max-h-screen mx-auto"
+        src="./assets/images/Self-Driven.jpg"
         alt=""
       />
     </section>
@@ -836,58 +836,133 @@
       </div>
     </section>
 
-    <!-- Advantages for Automated Parking Systems with References -->
-    <section class="bg-[#383e41] text-white">
-      <div class="flex gap-10 items-center pt-16 pl-16">
-        <img
-          src="./assets/images/parkolay-white.svg"
-          class="max-w-[300px] h-auto"
-          alt=""
-          srcset=""
-        />
-        <img
-          src="./assets/images/alupco.png"
-          class="max-w-[300px] h-auto"
-          alt=""
-          srcset=""
-        />
-      </div>
-      <div class="grid grid-cols-2 p-10 pt-20 ">
+    <!-- System Advantages -->
+    <section class="bg-[#383e41] grid grid-cols-2 text-white h-[1080px]">
+      <div class="flex flex-col justify-between p-16">
+        <div class="flex gap-10 items-center">
+          <img src="./assets/images/parkolay-white.svg" alt srcset />
+          <img src="./assets/images/alupco.png" class="w-[300px] h-[52px]" alt srcset />
+        </div>
     
-        <h2 class="text-[#00b7c8] text-[70px] leading-[90px] font-bold py-[300px]">
-          System Advantages
-        </h2>
-        <img
-          src="./assets/images/parkolay-logo.png"
-          class="max-w-[600px] w-full h-auto rotate-90 ml-auto pt-10"
-          alt="parkolay logo"
-          srcset=""
-        />
+        <div class="grow flex items-center">
+          <h2 class="text-[#00b7c8] text-[100px] leading-[130px] font-bold">
+            System Advantages
+          </h2>
+        </div>
+      </div>
+    
+      <div class="flex flex-col justify-end items-center">
+        <img src="./assets/images/parkolay-logo.png" class="w-[714px] h-[750px] rotate-90" alt="parkolay logo" srcset />
       </div>
     </section>
 
     <!-- Disadvantages of Traditional Parking -->
-    <section class="flex flex-col lg:flex-row items-center text-[#383E41] pt-[150px] pb-[100px] px-10 xl:px-20 gap-20">
-      <div class="w-full lg:w-[45%]">
-        <h2 class="text-[70px] font-semibold leading-[91px]">Disadvantages of Traditional Parking</h2>
-        <ul class="space-y-1.5 text-[34px] font-semibold pt-16">
-          <li>• Space Inefficiency</li>
-          <li>• Congestion</li>
-          <li>• Environmental Impact</li>
-          <li>• Safety Risks</li>
-          <li>• High Maintenance</li>
-          <li>• Limited Accessibility</li>
-          <li>• Land Use</li>
-          <li>• Inefficient Space Usage</li>
-        </ul>
-      </div>
-      <div class="w-full lg:w-[50%] grid grid-cols-[1fr_0.8fr] gap-4">
-        <img class="h-full w-auto" src="./assets/images/28/shutterstock_1.jpg" alt="" srcset="">
-        <div class="grid grid-cols-1 grid-row-3 gap-4">
-          <img src="./assets/images/28/shutterstock_2.jpg" alt="" srcset="" />
-          <img src="./assets/images/28/shutterstock_3.jpg" alt="" srcset="" />
-          <img src="./assets/images/28/shutterstock_4.jpg" alt="" srcset="" />
+    <section class="w-full">
+      <div class="flex flex-col lg:flex-row items-center text-[#383E41] pt-[150px] pb-[100px] px-10 xl:px-20 gap-20">
+        <div class="w-full lg:w-[45%]">
+          <h2 class="text-[70px] font-semibold leading-[91px]">Disadvantages of Traditional Parking</h2>
+          <ul class="space-y-1.5 text-[34px] font-semibold pt-16">
+            <li>• Space Inefficiency</li>
+            <li>• Congestion</li>
+            <li>• Environmental Impact</li>
+            <li>• Safety Risks</li>
+            <li>• High Maintenance</li>
+            <li>• Limited Accessibility</li>
+            <li>• Land Use</li>
+            <li>• Inefficient Space Usage</li>
+          </ul>
         </div>
+        <div class="w-full lg:w-[50%] grid grid-cols-[1fr_0.8fr] gap-4">
+          <img class="h-full w-auto" src="./assets/images/28/shutterstock_1.jpg" alt="" srcset="">
+          <div class="grid grid-cols-1 grid-row-3 gap-4">
+            <img src="./assets/images/28/shutterstock_2.jpg" alt="" srcset="" />
+            <img src="./assets/images/28/shutterstock_3.jpg" alt="" srcset="" />
+            <img src="./assets/images/28/shutterstock_4.jpg" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-10 pb-10 pt-10 pl-10 xl:pl-20">
+        <img src="./assets/images/parkolay-black.svg" alt="" srcset="" class="w-[190px] h-12" />
+      
+        <img src="./assets/images/alupco-white.png" alt="" srcset="" class="w-[275px] h-12" />
+      </div>
+    </section>
+
+    <!-- Parkolay's Innovative Automated Parking Solution -->
+    <section class="w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-[1fr_530px] text-[#383E41] pt-[150px] pb-[100px] px-10 xl:px-20 gap-20">
+        <div class="w-full pt-[150px]">
+          <h2 class="text-[70px] font-semibold leading-[91px]">Parkolay's Innovative <br />
+    
+            Automated Parking Solution</h2>
+          <p class="text-[34px] text-[#535C60] pt-5">Parkolay offers fully automated parking solutions that are
+            user-friendly,
+            safe, and efficient, maximizing space utilization and generating revenue. Cost-effective and
+            delivering a strong ROI, they are the smart choice for modern parking needs.</p>
+          <div class="space-y-8 text-[34px] font-semibold relative mt-16">
+            <div class="w-0.5 h-[calc(100%-32px)] absolute top-4 left-4 bg-[#383E41]"></div>
+            <div class="flex items-center relative z-[1]">
+              <div class="size-8 bg-[#383E41] text-white text-xl flex justify-center items-center rounded-sm">
+                <span>1</span>
+              </div>
+              <div class="w-10 h-0.5 bg-[#383E41]"></div>
+              <p class="pl-2 text-[#00B7C8]">Mixed Development Compatibility​</p>
+            </div>
+            <div class="flex items-center relative z-[1]">
+              <div class="size-8 bg-[#383E41] text-white text-xl flex justify-center items-center rounded-sm">
+                <span>2</span>
+              </div>
+              <div class="w-10 h-0.5 bg-[#383E41]"></div>
+              <p class="pl-2 text-[#00B7C8]">Enhanced User Experience​</p>
+            </div>
+            <div class="flex items-center relative z-[1]">
+              <div class="size-8 bg-[#383E41] text-white text-xl flex justify-center items-center rounded-sm">
+                <span>3</span>
+              </div>
+              <div class="w-10 h-0.5 bg-[#383E41]"></div>
+              <p class="pl-2 text-[#00B7C8]">Optimal Timing​</p>
+            </div>
+            <div class="flex items-center relative z-[1]">
+              <div class="size-8 bg-[#383E41] text-white text-xl flex justify-center items-center rounded-sm">
+                <span>4</span>
+              </div>
+              <div class="w-10 h-0.5 bg-[#383E41]"></div>
+              <p class="pl-2 text-[#00B7C8]">Flexible Operation​</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 grid-row-3 gap-4">
+          <img src="./assets/images/redcar.jpg" alt="" srcset="" />
+          <img src="./assets/images/parkolay_lift.jpg" alt="" srcset="" />
+          <img src="./assets/images/27-3-izmir.jpg" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="flex gap-10 pb-10 pl-10 xl:pl-20">
+        <img src="./assets/images/parkolay-black.svg" alt="" srcset="" class="w-[190px] h-12" />
+    
+        <img src="./assets/images/alupco-white.png" alt="" srcset="" class="w-[275px] h-12" />
+      </div>
+    </section>
+
+    <!-- Advantages for Automated Parking Systems with References -->
+    <section class="bg-[#383e41] grid grid-cols-2 text-white h-[1080px]">
+      <div class="flex flex-col justify-between p-16">
+        <div class="flex gap-10 items-center">
+          <img src="./assets/images/parkolay-white.svg" alt srcset />
+          <img src="./assets/images/alupco.png" class="w-[300px] h-[52px]" alt srcset />
+        </div>
+    
+        <div class="grow flex items-center">
+          <h2 class="text-[#00b7c8] text-[100px] leading-[130px] font-bold">
+            Advantages for
+            Automated Parking
+            Systems with References
+          </h2>
+        </div>
+      </div>
+    
+      <div class="flex flex-col justify-end items-center">
+        <img src="./assets/images/parkolay-logo.png" class="w-[714px] h-[750px] rotate-90" alt="parkolay logo" srcset />
       </div>
     </section>
   </body>
