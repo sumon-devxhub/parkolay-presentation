@@ -7,5 +7,5 @@ body {
 }
 
 .container {
-  @apply max-w-[1920px] mx-auto;
+  @apply max-w-[3000px] mx-auto;
 }
